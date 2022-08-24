@@ -1,29 +1,32 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/images/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
+    
 }
 
 
 .container {
     width: 1280px;
     margin: 0px 120px;
+    position: relative;
 
 
 }
 
-.content-left{
-    width: 50%;
-}
 
-/*
-.content-right-img{
+
+.container .content-left{
+    position: absolute;
     width: 40%;
-    
+    float: left;
 }
-*/
+
+
+.container .content-right{
+    float: right;
+    width: 60%;
+}
+
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,6 +49,7 @@ h2 {
     text-decoration: none;
     color: black;
     padding: 10px;
+    text-decoration: underline #eeb90f;    
 
 }
 
@@ -74,10 +78,11 @@ h2 {
 
 .btn1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgba(220, 208, 35, 0.952);
+    background-color: #f5d058;
     color: black;
     font-weight: bold;
     padding: 10px;
+    border-color: #eeb90f;
 }
 
 .btn2 {
@@ -86,6 +91,8 @@ h2 {
     color: black;
     font-weight: bold;
     padding: 10px;
+    border-color: #eeb90f;
+
 }
 
 .text {
