@@ -7,8 +7,11 @@ body {
 
 .container {
     width: 1280px;
+    margin: auto;
+    /*
     margin: 0px 120px;
-    position: relative;
+
+    */
 
 
 }
@@ -98,3 +101,5 @@ h2 {
 .text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+

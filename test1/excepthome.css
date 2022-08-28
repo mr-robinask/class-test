@@ -7,9 +7,13 @@ body {
 
 .container {
     width: 1280px;
+    margin: auto;
+    /*
     margin: 0px 120px;
 
 
+    */
+    
 }
 
 .content-left{
@@ -38,6 +42,8 @@ h2 {
     text-decoration: none;
     color: black;
     padding: 10px;
+    text-decoration: underline #eeb90f;    
+
 }
 
 .dropdown-container {
@@ -70,7 +76,7 @@ h2 {
 }
 
 .container img {
-    width: 20%;
+    
     background-color: white;
     height: auto;
     margin: 3px;
@@ -90,3 +96,108 @@ h2 {
 .container .content-img{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+/*
+Start CSS of Resources page
+*/
+
+header .small-title {
+    display: block;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 4px;
+  }
+  header.new-title {
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+  }
+
+  header .subheading {
+    max-width: 800px;
+    text-align: center;
+    font-size: 16px;
+    margin: 25px auto 15px;
+  }
+
+/*
+End CSS of Resources page
+*/
+
+
+
+/*
+Start CSS of video page
+*/
+.video-main{
+    margin: 0 auto 20px;
+    display: flex;
+}
+
+
+/*
+End CSS of video page
+*/
+
+
+/*
+Start CSS of About page
+*/
+input[type=text], input[type=email],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .about_container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    
+  }
+
+
+/*
+End CSS of About page
+*/
+
+
+/*
+Start CSS of video page
+*/
+
+.inspiration img{
+    width: 1080px;
+    height: 650px;
+    display: block;
+    margin: 0 auto 5px;
+    border-radius: 20px;
+}
+
+
+/*
+End CSS of video page
+*/
